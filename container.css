@@ -1,0 +1,42 @@
+.quotes-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-display {
+    margin-bottom: 20px;
+  }
+  
+  .quote-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: #007bff; /* Blue button */
+    border-color: #007bff; /* Blue border color */
+    color: #ffffff; /* White text */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Darker blue border on hover */
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode .jumbotron {
+    background-color: #343a40 !important; /* Dark background */
+    color: #ffffff; /* Light text */
+  }
+  
+  .dark-mode .btn {
+    background-color: #6c757d !important; /* Dark button */
+    border-color: #6c757d !important; /* Dark border color */
+  }
+  

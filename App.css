@@ -1,0 +1,100 @@
+.App {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.App-header {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-mode-toggle {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ffc107; /* Yellowish */
+  border-color: #ffc107;
+  color: #212529;
+}
+
+.btn-primary:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+  border-color: #d39e00;
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Red */
+  border-color: #dc3545;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+  border-color: #bd2130;
+}
+
+.dark-mode .App-header {
+  background-color: #343a40;
+}
+
+.dark-mode .jumbotron {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.dark-mode .card {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.dark-mode .btn-primary {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+}
+
+.dark-mode .btn-primary:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.dark-mode .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #ffffff;
+}
+
+.dark-mode .btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}

@@ -1,0 +1,59 @@
+this is the workflow of how i proceeded of creating my random quote generator react app
+
+Approach to the Project : 
+let's take the project step by step.
+A bit of thinking about what to do prior to having the fingers hit the keyboard
+goes a long way! Some things that come to mind this early: 
+
+1/- Make a decision on the quotes data structure (array of objects(2 properties: quotes and authors))
+2/- inspect 
+3/-
+---------------------------------------
+in react there's two types of componenets: 
+- container componenets ====> usually hold the state and all the data 
+and they pass down that data into the presentational componenets
+- presentational components (generic button component) where i can pass props
+as new quote 
+
+---------------------------------------
+this specific project will have an app components which will hold
+the entire state(current quote), and that current quote will have the current 
+author
+
+1/- implement the functionality 
+2/- styling the components 
+
+---------------------------------------
+1/- import quote data into our component 
+    - Quote data should be an object with 2 properties : author and text
+
+2/- randomly shoose a quote on button click
+3/- Display quote and author
+
+{
+    Data (in state) 
+        SELECTED_QUOTE
+        * Quote data   
+        * Selected quote index 
+    Methods 
+        * selectNewRandomIndex
+}
+
+
+4/- lodash library is used for returning a random number from 0
+to whatever number i choose (lower and upper)
+
+INITIALIZATION :
+
+on component mount ('useEffect'), 'getQuotes()' fetches quotes 
+and initializes "quotes" and "selectedQuoteIndex"
+
+BUTTON CLICK : 
+
+clicking "next quote" updates "selectedQuoteIndex" to display a new quote
+
+
+RENDERING : 
+
+quotes are displayed conditionally based on "selectedQuoteIndex"
+ensuring robust handling of state and asynchronous data fetching

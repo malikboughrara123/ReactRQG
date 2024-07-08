@@ -1,0 +1,42 @@
+.liked-quotes {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .liked-quotes ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .liked-quotes li {
+    margin-bottom: 10px;
+  }
+  .list-group-item {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: #dc3545; /* Red button */
+    border-color: #dc3545; /* Red border color */
+    color: #ffffff; /* White text */
+  }
+  
+  .btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+    border-color: #bd2130; /* Darker red border on hover */
+  }
+  
+  /* Dark Mode Styles */
+  .dark-mode .card {
+    background-color: #343a40 !important; /* Dark background */
+  }
+  
+  .dark-mode .card-header {
+    background-color: #17a2b8 !important; /* Dark blue header */
+  }
+  
+  .dark-mode .list-group-item {
+    background-color: #343a40 !important; /* Dark background for list items */
+  }
+  
+  
